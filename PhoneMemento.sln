@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoDesignPattern", "ConsoleApp7\MementoDesignPattern.csproj", "{A8C05E9B-079A-427C-8208-1A31C1C9FC8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneMemento.nUnitTest", "PhoneMemento.nUnitTest\PhoneMemento.nUnitTest.csproj", "{1C58D65A-73EF-4FF0-BEE4-E175A051493F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C05E9B-079A-427C-8208-1A31C1C9FC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C05E9B-079A-427C-8208-1A31C1C9FC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C05E9B-079A-427C-8208-1A31C1C9FC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C05E9B-079A-427C-8208-1A31C1C9FC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58D65A-73EF-4FF0-BEE4-E175A051493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58D65A-73EF-4FF0-BEE4-E175A051493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58D65A-73EF-4FF0-BEE4-E175A051493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58D65A-73EF-4FF0-BEE4-E175A051493F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D555CDC-C6A8-41FE-9999-B20BCD0BA777}
+	EndGlobalSection
+EndGlobal
