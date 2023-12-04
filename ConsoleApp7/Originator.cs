@@ -24,7 +24,7 @@
         public string GetDetails()
         {
             // To Fetch the Details, internally it is calling the GetDetails method on Phone Object
-            return "Originator [Phone=" + Phone.GetDetails() + "]";
+            return "Originator [Phone==" + Phone.GetDetails() + "]";
         }
     }
 }
