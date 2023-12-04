@@ -18,7 +18,7 @@ namespace MementoDesignPattern
             caretaker.AddMemento(memento);
 
             // Changing the Originator Current State to a different phone model
-            originator.Phone = new Phone("Iphone", "$1500", true);
+            originator.Phone = new Phone("Iphone", "$1300", true);
 
             // Storing the Internal State (Memento) of the Originator in the Caretaker (Store Room) again
             memento = originator.CreateMemento();
