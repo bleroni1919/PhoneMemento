@@ -14,7 +14,7 @@ namespace MementoDesignPattern
         public void AddMemento(IPhoneMemento memento)
         {
             PhoneList.Add(memento);
-            Console.WriteLine("Phone snapshots maintained by CareTaker: " + memento.Restore().GetDetails());
+            Console.WriteLine("Phone snapshots maintained by CareTaker:: " + memento.Restore().GetDetails());
         }
 
         // This Method is used to return one of the Previous Originator Internal States which saved in the Caretaker
